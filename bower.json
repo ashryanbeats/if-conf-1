@@ -1,0 +1,16 @@
+{
+  "name": "if-conf-1",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ashryanbeats/if-conf-1",
+  "authors": [
+    "Ash Ryan <ash@ashryanbeats.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
