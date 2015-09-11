@@ -1,3 +1,24 @@
+body {
+  background: url('images/grand-central.jpg'), center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
 #main {
-  margin-top: 200px;
+  margin-top: 160px;
+}
+
+#main-content {
+  background-color: hsla(0, 0%, 95%, 0.85);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+hr {
+  border-top: 1px solid hsla(0, 0%, 50%, 1);
+}
+
+form {
+  margin-bottom: 0;
 }
