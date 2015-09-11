@@ -22,3 +22,7 @@ hr {
 form {
   margin-bottom: 0;
 }
+
+input, button, .button, input[type="button"], input[type="submit"], input[type="text"], input[type="email"] {
+  border-radius: 20px;
+}
