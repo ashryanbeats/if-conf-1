@@ -28,7 +28,17 @@ input, button, .button, input[type="button"], input[type="submit"], input[type="
   padding: 20px;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 955px) {
+  h1 {
+    font-size: 4.0rem;
+  }
+}
+
+@media (max-width: 770px) {
+  h1 {
+    font-size: 3.3rem;
+  }
+
   .container {
     width: 100%;
   }
@@ -39,6 +49,15 @@ input, button, .button, input[type="button"], input[type="submit"], input[type="
   
   #main-content {
     margin: 0 10px;
+  }
+}
+
+@media (max-width: 555px) {
+  .columns.site-title {
+    width: 60%;
+  }
+  .columns#lang-switcher {
+    width: 40%;
   }
 }
 
