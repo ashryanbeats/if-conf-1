@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
   <title>If Conference</title>
+  
+  <!-- Basic meta -->
+  <meta charset="utf-8">
   <meta name="description" content="Bringing together the tech ecosystems of Japan and NYC. Two wild days of talks, tech demos, and cross-cultural learnings.">
 
   <!-- Mobile meta -->
@@ -21,6 +23,7 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 
   <!-- JavaScript -->
+  <script src="/bower_components/jquery/dist/jquery.min.js"></script>
   <script src="https://cdn.localizejs.com/localize.js"></script>
   <script src="script.js"></script>
 
@@ -39,8 +42,8 @@
               <h1>If Conference</h1>
             </div>
             <div id="lang-switcher" class="four columns">
-              <a href="javascript:Localize.setLanguage('ja')">日本語</a>
-              <a href="javascript:Localize.setLanguage('en')">English</a>
+              <a id="lang-ja" href="#">日本語</a>
+              <a id="lang-en" href="#">English</a>
             </div>
           </div>
 
