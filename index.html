@@ -20,16 +20,9 @@
   <link rel="stylesheet" type="text/css" href="/bower_components/skeleton/css/skeleton.css">
   <link rel="stylesheet" type="text/css" href="style.css">
 
+  <!-- JavaScript -->
   <script src="https://cdn.localizejs.com/localize.js"></script>
-
-  <script>!function(a){if(!a.Localize){a.Localize={};for(var e=["translate","untranslate","phrase","initialize","translatePage","setLanguage","getLanguage","detectLanguage","getAvailableLanguages","untranslatePage","bootstrap","prefetch","on","off"],t=0;t<e.length;t++)a.Localize[e[t]]=function(){}}}(window);</script>
-
-  <script>
-   Localize.initialize({
-    key: 'jwfTGgB1vDG0b',
-    rememberLanguage: true
-   });
-  </script>
+  <script src="script.js"></script>
 
 </head>
 
@@ -40,7 +33,16 @@
     <div class="row">
       <div class="offset-by-two eight columns">
         <div id="main-content">
-          <h1>If Conference</h1>
+
+          <div class="row">
+            <div class="eight columns">
+              <h1>If Conference</h1>
+            </div>
+            <div id="lang-switcher" class="four columns">
+              <a href="javascript:Localize.setLanguage('ja')">日本語</a>
+              <a href="javascript:Localize.setLanguage('en')">English</a>
+            </div>
+          </div>
 
           <p>
             In Spring of 2016, If Conference is launching an event to bring together the startup ecosystems of Japan and NYC right here in the city. Get ready for 2 wild days of <strong>talks, tech demos, and cross-cultural learnings</strong>.</p>
