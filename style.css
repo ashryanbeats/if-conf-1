@@ -28,9 +28,25 @@ input, button, .button, input[type="button"], input[type="submit"], input[type="
   padding: 20px;
 }
 
+#subscribe-button {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+}
+
+#lang-switcher {
+  text-align: right;
+}
+
 @media (max-width: 955px) {
   h1 {
     font-size: 4.0rem;
+  }
+}
+
+@media (min-width: 955px) {
+  #lang-switcher {
+    margin-top: 10px;
   }
 }
 
@@ -59,14 +75,4 @@ input, button, .button, input[type="button"], input[type="submit"], input[type="
   .columns#lang-switcher {
     width: 40%;
   }
-}
-
-#subscribe-button {
-  padding-left: 15px;
-  padding-right: 15px;
-  width: 100%;
-}
-
-#lang-switcher {
-  text-align: right;
 }
