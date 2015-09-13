@@ -4,11 +4,20 @@ $(document).ready(function() {
 
   Localize.initialize({
     key: 'jwfTGgB1vDG0b',
-    rememberLanguage: true
+    rememberLanguage: true,
+    translateMetaTags: true
   });
   //
 
-  $('#lang-en').hide();
+  var startLang = Localize.getLanguage();
+
+  if (startLang === 'en') {
+    $('#lang-en').hide();
+  }
+  else {
+    $('#lang-ja').hide();
+  }
+
 
   $('#lang-ja').click(function() {
     toggleLang();
