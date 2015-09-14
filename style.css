@@ -20,6 +20,7 @@ input, button, .button, input[type="button"], input[type="submit"], input[type="
 
 #main {
   margin-top: 140px;
+  margin-bottom: 70px;
 }
 
 #main-content {
